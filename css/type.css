@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*** banner section start ***/
+.logo{
+    width: 20%;
+}
+
+.type-banner{
+    background: url('../images/forHeader.jpg') ;
+    background-attachment: fixed ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 !important;
+}
+.banner-name{
+    background-color: #2e2e2ea9 !important;
+}
+
+.banner-name h3{
+    font-size: 80px;
+}
+.banner-name a{
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.card-button a{
+    color: #FC761F !important;
+    transition: 0.5s;
+    border: none;
+    text-decoration: none;
+}
+/*** banner section end ***/
+
+
+.type-virus{
+    background-image: url('../images/type-virus.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.marburg{
+    background-image: url('../images/marburg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ebula{
+    background-image: url('../images/ebula.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.rabies{
+    background-image: url('../images/rabies.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hiv{
+    background-image: url('../images/hiv.webp');
+    background-position: center;
+    background-size: cover;
+}
+.smallpox{
+    background-image: url('../images/smallpox.jpg');
+
+    background-position: center;
+    background-size: cover;
+}
+.Hantavirus{
+    background-image: url('../images/hanta.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.covid{
+    background-image: url('../images/covid.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.dangue{
+    background-image: url('../images/dangue.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.chikungunya{
+    background-image: url('../images/chikunguniya.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.influnza{
+    background-image: url('../images/influenza.png');
+    background-position: center;
+    background-size: cover;
+}
+                    
+/******* footer section start *******/ 
+.subscribe-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    background-color:  transparent;
+    border: none;
+}
+.subscribe:hover{
+    text-decoration: none;
+    color: white !important;
+}
+.inpot{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+.icon-muted{
+    font-size: 30px;
+}
+/******* footer section end *******/ 

@@ -1,0 +1,30 @@
+.logo{
+    width: 20%;
+}
+/******* footer section start *******/ 
+.subscribe-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    background-color: transparent;
+    border: none;
+}
+.subscribe:hover{
+    text-decoration: none;
+    color: white !important;
+}
+.inpot{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+.icon-muted{
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 30px;
+}
+/******* footer section end *******/ 

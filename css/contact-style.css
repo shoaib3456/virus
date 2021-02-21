@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+/*** navbar section start***/
+.logo{
+    width: 20%;
+}
+
+/*** navbar section end***/
+/*** banner start***/
+.forBanner{
+    background: url('../images/con-banner.jpg') ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 !important;
+}
+.Errors{
+    margin-top: 10px;
+    display: none;
+}
+
+.banner-name{
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.banner-name h3{
+    font-size: 80px;
+}
+.banner-name p{
+    color: white;
+}
+.banner-name a{
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+
+
+
+/*** banner end***/
+
+.font-weight-bold{
+    font-weight: bold !important;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
+.signup{
+    border-radius: 1000px !important;
+}
+.down-arow{
+    width: 13px !important;
+}
+.contact-head{
+    margin-top: 140px;
+}
+.heading{
+    font-size: 3rem;
+}
+.input-height{
+    height: 50px;
+}
+.lead{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400;
+}
+.inputs{
+    font-size: 19px;
+    border: 1px solid #FC761F ;
+
+}
+.input:hover{
+    box-shadow: inset 0 0 0 1px #FC761F;
+} 
+.inputs::placeholder{
+   color:#8f8f8f;
+    font-size: 1.2rem;
+}
+.img-pro{
+    height: 650px;
+    width: 700px;
+}
+.btn-hov{
+    text-transform: uppercase;
+    padding: 15px 3rem;
+    margin-top: 30px;
+    border: 0.1 solid #FC761F;
+    color: white;
+    background: #fc771fd5;
+    width: 75%;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+.btn-hov::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FC761F;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+}
+.btn-hov:hover::before{
+    transform: translateX(0);
+    z-index: -1;
+}
+.btn-hov:hover{
+    color: white;
+}
+.look{
+    margin-top: 300px;
+    font-size: 3rem;
+    margin-bottom: 150px;
+}
+
+.img-hov{
+    background: url('../images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin: 0 !important;
+}
+
+
+
+/******* footer section start *******/ 
+.subscribe-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    background-color: transparent;
+    border: none;
+}
+.subscribe:hover{
+    text-decoration: none;
+    color: white !important;
+}
+.inpot{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+.icon-muted{
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 30px;
+}
+/******* footer section end *******/ 

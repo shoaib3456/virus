@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*** nav and banner section start***/
+
+.logo{
+    width: 20%;
+}
+.forBanner{
+    background: url('../images/type-banner.png') ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 !important;
+}
+.back-color{
+    background-color: rgba(27, 27, 27, 0.781);
+}
+.banner-name h3{
+    font-size: 80px;
+}
+.banner-name a{
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.card-button a{
+    color: #FC761F !important;
+    transition: 0.5s;
+    border: none;
+    text-decoration: none;
+}
+
+/*** nav and banner section end***/
+
+/******* three extra header div start *******/ 
+.header-extradiv{
+    margin: 100px 0;         
+    text-align: center;
+}
+.virus-card-section{
+    display: flex ;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+}
+.virus-card-section::-webkit-scrollbar{
+    appearance: none;
+}
+.slick-prev,.slick-next{
+    display: none !important;
+}
+.extra-div h2 {
+    font-size: 2rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.extra-div{
+    background: rgba(255, 255, 255, 0.432);
+    border: medium none;
+    border-radius: 3px;
+    margin: 20px 0;
+    z-index: 100;
+    padding: 0 10px;
+}
+.slide{
+    z-index: 100;
+
+}
+
+.virus-img{
+    width:150px !important;
+    height: 150px !important;
+}
+/******* three extra header div end *******/ 
+
+/******* service offer css start *******/ 
+
+.service-offer{
+    background: #f7f7f9;
+    padding: 50px 0;
+}
+.name h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.progress{
+    height: 0.7rem!important;
+}
+
+
+/******* service offer css end *******/ 
+/******* footer section start *******/ 
+.subscribe-head{
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    background-color: transparent;
+    border: none;
+}
+.subscribe:hover{
+    text-decoration: none;
+    color: white !important;
+}
+.inpot{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color:white;
+}
+.icon-muted{
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 30px;
+}
+.meter{
+    width:150px;
+    height: 150px;
+    border: 10px solid orange;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 153, 0),
+    inset 0px 0px 10px rgb(255, 153, 0) ;
+    color: rgb(77, 77, 77);
+}
+.meter-name{
+    margin-top:-40px;
+    background-color: white ;
+    padding: 10px 10px ;
+    font-size: 15px;
+    letter-spacing: 1.5;
+}
+/******* footer section end *******/ 
+
+
+@media screen and (max-width:376px){
+    .navbar-brand{
+        width: 152px;
+    }
+}
+
